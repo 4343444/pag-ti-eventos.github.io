@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inicio{
+    flex: 1;
+    min-width: 250px;
+    position: relative;
+    height: 90px;
+
+    background: #2d3c8f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inicio a /* Enlaces */{
+    position: relative;
+    left: 800px;
+    top: -60px;
+    color: #E5E5E5;
+    text-decoration: none;
+    padding-left: 15px;
+}
+h1{
+    text-align: center;
+}
+
+
+.principal{
+    padding-top: 10%;
+    height: auto;
+    text-align: center;
+    background-color: #2d688ff5;
+    background-size: cover;
+    padding-left: 150px;
+    padding-right: 15%;
+}
+.principal section{
+    position: relative;
+    top: -90px;
+    color: white;
+    font-size: 27px;
+}
+section a{
+    color: rgb(15, 15, 15);
+    font-size: 23px;
+}
+section h2{
+    padding-bottom: 18px;
+}
+
+.container--Maestros{
+    position: static;
+    background-color: aliceblue;
+    padding-bottom: 5%;
+}
+.container--Maestros h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+
+}
+
+.filam{
+    padding-top: 3%;
+    display: flex;
+    padding-left: 3%;
+}
+.columnam {
+    font-family: 'Ubuntu';
+    width: 24%;
+    left: 24px;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+.columnam h3{
+    font-family: 'Dongle';
+    font-size: 28px;
+    text-align: center;
+}
+.columnam h4{
+    padding-top: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.infm{
+    background-color: rgba(170, 176, 228, 0.829);
+    padding-top: 5px;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    border-radius: 5%;
+
+}
+
+.Maestro{
+text-align: center;
+}
+.Maestro img{
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    border: 2px solid gray;
+    margin: 0;
+    padding: 0;
+    border-radius: 150px;
+    overflow: hidden;
+}
+
+
+.container--Eventos{
+    position: static;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 25px;
+    background-color: rgba(235, 214, 245, 0.89);
+}
+.container--Eventos h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+.filaE{
+    display: flex;
+    padding-top: 5%;
+}
+.ful-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.ful-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.ful-img img{
+    width: 80%;
+    max-width: 480px;
+}
+
+.columna{
+
+    left: 5px;
+    width: 33%;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 100px;
+    text-align: justify;
+    font-family: "raleway";
+
+}
+.columna img{
+    width: 250px;
+}
+
+.columna h3{
+padding-top: 5%;
+padding-right: 120px;
+font-size: 14px;
+
+}
+
+.columna img:hover{
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+.columna section img{
+    border: 1px solid rgba(64, 224, 208, 0.747);
+}
+
+.reinscripcion{
+    background-color: #E5E5E5;
+    position: static;
+    width: 100%;
+    padding-top: 6%;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.reinscripcion h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+.reins img{
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  .reins img:hover{
+    transform: scale(1.2);
+  }
+
+
+.adm{
+    padding-top: 1%;
+    display: contents;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.adm img{
+    padding-left: 15%;
+    position: static;
+    margin-top: 50px;
+    left: 100px;
+    width: 400px;
+}
+
+.adm img:hover{
+    transform: scale(1.2);
+    transition: .8s;
+    
+}
+
+
+.reinscripcion button{
+    width: 23vh;
+    height: 30px;
+    left: 50%;
+    padding-top: 4px;
+    padding-left: 3px;
+    background-color: #2D8F55;
+    color: yellow;
+    border-color: azure;
+    text-align: center;
+}
+.reinscripcion a{
+    padding-left: 40%;
+    text-decoration: none;
+}
+.reinscripcion button:hover{
+    transform: scale(1.1);
+    transition: .8s;
+
+}
+
+.adm{
+padding-left: 20%;
+}
+
+.reins{
+    position: static;
+    text-align: justify;
+    width: 100%;
+padding-top: 6%;
+padding-left: 20%;
+padding-right: 20%;
+}
+.reins h1{
+    padding-bottom: 5%;
+}
+.reins p{
+    padding-top: 5px;
+    padding-left: 15%;
+    font-size: 17px;
+    font-family: 'Ubuntu';
+
+
+}
+
+.planE{
+    position: static;
+    width: 100%;
+padding-top: 6%;
+text-align: justify;
+background-color: aliceblue;
+padding-left: 25%;
+padding-right: 25%;
+padding-bottom: 25px;
+}
+.planE h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    padding-bottom: 20px;
+}
+.planE a{
+    padding-left: 48%;
+    padding-top: 30%;
+    font-size: 17px;
+    font-family: 'ubuntu';
+}
+.textplanE{
+    font-size: 17px;
+padding-bottom: 20px;
+}
+
+.planE button{
+    
+    background-color: rgb(17, 31, 226);
+    color: white;
+    border-radius: 5px;
+    border-color: #E5E5E5;
+    width: 20vh;
+    height: 25px;
+    right: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+.planE button:hover{
+    transform: scale(1.1);
+
+}
+
+.becas{
+    background-color: rgba(214, 202, 200, 0.308);
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 28%;
+    padding-right: 28%;
+    text-align: justify;
+    padding-bottom: 25px;
+    font-style: 'ubuntu';
+
+}
+.becas h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    padding-bottom: 20px;
+}
+.becas p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.comentarios{
+    text-align: justify;
+}
+.comentarios h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.comentarios p{
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-bottom: 3%;
+  
+
+}
+
+@media screen and (min-width:320px)and (max-width:800px){
+
+    .inicio a /* Enlaces */{
+        position: unset;
+        padding-left: 8px;
+        font-size: 12px;
+    }
+    nav{
+        padding-left: 70px;
+        padding-top: -90%;
+    }
+
+    .principal{
+        padding-top: 5%;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .principal section{
+        top: 1px;
+    }
+    section a{
+        font-size: 13px;
+    }
+
+    section h2{
+        padding-bottom: 18px;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container--Maestros h1{
+        font-size: 35px;
+    }
+
+    .container--Eventos h1{
+        font-size: 35px;
+    }
+    
+    .columnam {
+        font-family: 'Raleway';
+        width: 95px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        padding-left: 1px;
+        font-size: 12px;
+        padding-right: 20px;
+    }
+    .Maestro{
+        
+        width: 64px;
+        height: 70px;
+    }
+    .Maestro img{
+        width: 60px;
+    }
+
+    .columnam h4{
+        padding-top: 7px;
+        font-size: 12px;
+    }
+       
+    .ful-img{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .ful-img img{
+        width: 80%;
+        max-width: 230px;
+    }
+    
+    .columna{
+    
+        padding-left: 3px;
+        font-size: 11px;
+    }
+    .columna img{
+        width: 100px;
+    }
+    
+    .reins img{
+        padding-left: 1px;
+        padding-top: 10px;
+      }    
+    
+    .adm img{
+        padding-left: 0%;
+        margin-top: 50px;
+        width: 180px;
+        padding-right: 10px;
+    }
+    .reinscripcion h1{
+        font-size: 35px;
+    }
+    .reinscripcion button{
+        width: 15vh;
+        background-color: rgb(170, 55, 185);
+    }
+    .reinscripcion button:hover{
+        transform: scale(1.1);
+    }
+
+    .reinscripcion a{
+        padding-left: 15px;
+        font-family: 'Franklin Gothic Medium';
+    }
+    .adm{
+    padding-left: 0%;
+    }
+    
+    .reins h1{
+        padding-bottom: 5%;
+        font-size: 35px;
+    }
+    .reins p{
+        padding-top: 4px;
+        padding-left: 5%;
+        font-size: 15px;
+    }
+    
+    .planE h1{
+        font-size: 35px;
+    }
+    .planE p{
+        font-size: 12px;
+    }
+    .planE a{
+        padding-left: 20%;
+    }
+    
+    .planE button{
+        
+        background-color: rgb(127, 150, 255);
+        width: 20vh;
+    }
+    .planE button:hover{
+        transform: scale(1.1);
+
+    }
+    
+    .becas h1{
+        font-size: 35px;
+    }
+    .becas p{
+        font-size: 12px;
+    }
+    
+        .comentarios h2{
+        font-size: 35px;
+    }
+    
+    .comentarios p{
+
+        padding-top: 3%;
+        padding-left: 25%;
+        padding-bottom: 3%;
+    }
+}
+
+@media screen and (min-width:810px)and (max-width:1068px){
+
+    .inicio a /* Enlaces */{
+        position: unset;
+        padding-left: 8px;
+        font-size: 12px;
+    }
+    nav{
+        padding-left: 100px;
+    }
+
+    .container--Maestros h1{
+        font-size: 35px;
+    }
+
+    .container--Eventos h1{
+        font-size: 35px;
+    }
+    
+    .columnam {
+        font-family: 'Raleway';
+        width: 95px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        padding-left: 1px;
+        font-size: 12px;
+        padding-right: 20px;
+    }
+    .Maestro{
+        
+        width: 85px;
+        height: 85px;
+    }
+    .Maestro img{
+        width: 60px;
+    }
+
+    .columnam h4{
+        padding-top: 7px;
+        font-size: 12px;
+    }
+       
+    .ful-img{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .ful-img img{
+        width: 80%;
+        max-width: 230px;
+    }
+    
+    .columna{
+    
+        padding-left: 3px;
+        font-size: 11px;
+    }
+    .columna img{
+        width: 100px;
+    }
+    
+    .reins img{
+        padding-left: 1px;
+        padding-top: 10px;
+      }    
+    
+    .adm img{
+        padding-left: 0%;
+        margin-top: 50px;
+        width: 180px;
+        padding-right: 10px;
+    }
+    .reinscripcion h1{
+        font-size: 35px;
+    }
+    .reinscripcion button{
+        width: 15vh;
+        background-color: rgb(170, 55, 185);
+    }
+    .reinscripcion button:hover{
+        transform: scale(1.1);
+    }
+
+    .reinscripcion a{
+        padding-left: 15px;
+        font-family: 'Franklin Gothic Medium';
+    }
+    .adm{
+    padding-left: 0%;
+    }
+    
+    .reins h1{
+        padding-bottom: 5%;
+        font-size: 35px;
+    }
+    .reins p{
+        padding-top: 4px;
+        padding-left: 5%;
+        font-size: 15px;
+    }
+    
+    .planE h1{
+        font-size: 35px;
+    }
+    .planE p{
+        font-size: 12px;
+    }
+    .planE a{
+        padding-left: 20%;
+    }
+    
+    .planE button{
+        
+        background-color: rgb(127, 150, 255);
+        width: 20vh;
+    }
+    .planE button:hover{
+        transform: scale(1.1);
+
+    }
+    
+    .becas h1{
+        font-size: 35px;
+    }
+    .becas p{
+        font-size: 12px;
+    }
+    
+        .comentarios h2{
+        font-size: 35px;
+    }
+    
+    .comentarios p{
+
+        padding-top: 3%;
+        padding-left: 25%;
+        padding-bottom: 3%;
+    }
+}
